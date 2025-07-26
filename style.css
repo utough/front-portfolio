@@ -1,0 +1,160 @@
+:root {
+  /* 基本カラー */
+  --white: #fffff0;
+  --txt: #333;
+  --accent: #ff7300;
+  --border: #ddd;
+  --muted: #666;
+
+  /* 余白 */
+  --sp-xs: 0.25rem; /* 4px */
+  --sp-s: 0.5rem; /* 8px */
+  --sp-m: 1rem; /* 16px */
+  --sp-l: 3rem; /* 48px */
+  --sp-xl: 4rem; /* 64px */
+
+  /* フォントサイズ */
+  --fs-s: 0.875rem; /* 14px */
+  --fs-m: 1rem; /* 16px */
+  --fs-l: 1.25rem; /* 20px */
+  --fs-xl: 1.5rem; /* 24px */
+  --fs-xxl: 2rem; /* 32px */
+
+  /* フォントファミリ */
+  --ff: system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--txt);
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  font-family: var(--ff);
+  font-size: var(--fs-m);
+  color: var(--txt);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+header,
+footer {
+  padding: var(--sp-m);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+footer {
+  color: var(--txt);
+}
+
+section {
+  margin-bottom: var(--sp-l);
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+main .body-wrap {
+  padding: 2rem 1rem;
+}
+
+.wrap {
+  padding: var(--sp-s);
+}
+
+.logo-wrap {
+  line-height: 0;
+}
+
+.logo-wrap img {
+  width: 100%;
+}
+
+.img-wrap {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0.75rem;
+}
+
+.img-wrap img {
+  width: 100%;
+}
+
+.contents-wrap {
+  padding: var(--sp-m);
+}
+
+.contents-wrap.navi {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.work-title {
+  margin: 1rem 0;
+}
+
+.work-card {
+  padding: var(--sp-m);
+  font-size: var(--fs-s);
+}
+
+.to_detail-link {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.link {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link.github {
+  background-image: url(/img/icon-github.png);
+}
+
+.link.mail {
+  background-image: url(/img/icon-mail.png);
+}
+
+/* タブレット以上 */
+@media (min-width: 768px) {
+  .logo-wrap {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .contents-wrap.navi {
+    grid-auto-flow: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+  main .body-wrap {
+    padding: 3rem 10rem;
+  }
+  .work-card {
+    width: 40%;
+  }
+} /* タブレットここまで */
+
+/* PCのみ */
+@media (min-width: 992px) {
+} /* PCここまで */
