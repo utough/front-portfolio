@@ -150,8 +150,10 @@ main .body-wrap {
   main .body-wrap {
     padding: 3rem 10rem;
   }
-  .work-card {
-    width: 40%;
+  .work-card-wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
   }
 } /* タブレットここまで */
 
