@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>加藤｜Web制作ポートフォリオ</title>
   <link rel="stylesheet" href="/front-portfolio/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Kosugi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,108 +23,311 @@
         </div>
       </span>
     </h1>
-    <nav>
-      <div class="contents-wrap navi">
-        <a href="#works">制作実績</a>
-        <!-- <a href="/front-portfolio/profile.html">プロフィール</a> -->
-        <a href="mailto:yutaskysazanami@gmail.com">お問い合わせ</a>
-      </div>
-    </nav>
   </header>
 
   <main>
-    <div class="body-wrap">
-      <section id="about">
-        <h2>自己紹介</h2>
-        <div class="contents-wrap">
-          <h2>Webサイトの新規制作・既存サイトの修正・改修を承ります。</h2>
-          <p>
-            HTML/CSSを中心としたコーディング、WordPress構築、既存サイトの修正・運用など、Web制作業務に対応しています。<br>制作会社様のパートナーとして、継続的な制作業務にも対応可能です。<br><br>20代後半男性、北海道出身、福岡県在住<br><br>何卒よろしくお願いいたします。
-          </p>
+
+    <div class="message-box mv" id="mv">
+      <div class="wrap">
+        <div class="mbox-text mv-text" id="mvText">
+          <p class="fade-up delay-1 typewriter">はじめまして。</p>
+          <p class="fade-up delay-2 typewriter">加藤ユタと申します。</p>
+          <p class="fade-up delay-3 typewriter">WEB制作をサポート<br class="spbr">させていただいております。</p>
         </div>
-      </section>
+        <div class="mbox-text_sticky fade-up typewriter" id="">
+          <p>WEB PRODUCTION / WORDPRESS / SITE IMPROVEMENT</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-box greeting" id="greeting">
+      <div class="wrap">
+        <div class="mbox-text greeting">
+          <p class="fade-up"><span class="typewriter">ウェブサイトを作る、</span><br><span
+              class="typewriter"><b>理由を考えること</b>が好きです。</span></p>
+
+
+          <div class="caption">
+            <p class="fade-up">約6年ウェブに携わる仕事を経験してまいりました。</p>
+            <p class="fade-up">また、ここ1年は、20〜30件/一日、1万以上/年間のWebサイトの制作からチェックまで一貫して担当してまいりました。</p>
+            <p class="fade-up">お客様と直接やりとりすることがない中でも、ディレクターの方を通じて最適なご提案ができるよう、制作現場の最前線で最大限努めてまいりました。</p>
+            <p class="fade-up">本当に多くの案件に携わる中で、限られた工数、納期、環境の中ただ修正実装をするだけではない、経験を積み、ぜひお役に立てるのではないかと考えております。</p>
+
+            <div class="fade-up" id="history">
+              <h3 class="-w-ttl">略歴</h3>
+              <div class="collapsible">
+                <table class="flow ">
+                  <tr>
+                    <th>2026年1月〜2026年12月</th>
+                    <td>
+                      <p>WEB制作会社パートナー</p>
+                      <ul class="tag-wrap">
+                        <li class="tag">コーダー</li>
+                        <li class="tag">品質管理</li>
+                        <li class="tag">海外チームとの連携</li>
+                      </ul>
+                      <p class="caption">
+                        月間300件を受注する制作会社様で、HTML・CSS、JavaScript、PHPを用いたWebサイト改修業務を担当いたしました。毎日約20〜30サイトの修正を制作・チェック・指示だしなど経験。<a
+                          href="#work02">制作実績01へ</a>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>2023年10月〜2025年2月</th>
+                    <td>
+                      <p>コーポレートサイト運用</p>
+                      <ul class="tag-wrap">
+                        <li class="tag">正社員</li>
+                        <li class="tag">WordPressテーマ</li>
+                        <li class="tag">Instagram運用</li>
+                        <li class="tag">ECサイト立ち上げ</li>
+                      </ul>
+                      <p class="caption">
+                        就労継続支援の現場で、新規利用者様獲得を目的としたホームページサイト改修、インスタグラム運用、楽天ショップ立ち上げなど、ウェブを起因とする様々な業務を担当いたしました。<a
+                          href="#work03">制作実績03へ</a></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>2021年9月〜2023年5月</th>
+                    <td>
+                      <p>大手企業様の社内サイトリニューアル、運用業務</p>
+                      <ul class="tag-wrap">
+                        <li class="tag">契約社員</li>
+                        <li class="tag">独自CMS</li>
+                        <li class="tag">Photoshop</li>
+                      </ul>
+                      <p class="caption">
+                        大手企業の子会社のウェブ制作会社にコーダーとして未経験で入社。イントラサイトのリニューアルチームでサイトの各ページ移行業務を担当。<br>リニューアル後は運用チームに配属、グループ企業や車系のウェブサイトのサイト更新業務などを担当。また、車系企業様のウェブサイト更新にはPhotoShopを使用いたしました。
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>カトウとは</th>
+                    <td>
+                      <!-- <p></p> -->
+                      <ul class="tag-wrap">
+                        <li class="tag">HTML/CSS</li>
+                        <li class="tag">JavaScript/WordPress</li>
+                        <li class="tag">独自CMS</li>
+                        <li class="tag">Photoshop/Illustrator</li>
+                      </ul>
+                      <p class="caption">
+                        福岡県在住の20代男性です。<br>できる限り即戦力となれるよう、自学自習や経験を活かして努めてまいります。<br>魚と鳥を眺めるのが趣味です。
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="-w-btn-wrap">
+                <div class="-w-btn open-btn">
+                  <a href=""><span>詳細</span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="body-wrap">
 
       <section id="works">
-        <h2>制作実績</h2>
+        <div class="-w-ttl-wrap fade-up">
+          <p class="-w-subttl">01.</p>
+          <h2 class="-w-ttl">制作実績</h2>
+          <p class="-w-subttl">WORKS</p>
+          <!-- <p class="-w-caption">制作実績をご紹介いたします。</p> -->
+        </div>
 
 
         <div class="work-card-wrap">
-          <div class="work-card">
+          <div class="work-card fade-up">
+
             <div class="img-wrap">
               <img src="/front-portfolio/img/wp-thumbnail03.webp" alt="WPサムネ" />
             </div>
-            <h3>【実務】Webサイトの継続的な運用・改修</h3>
-            <p>
-              月間300件を受注する制作会社様 ／ HTML・CSS、JavaScript、PHPを用いたWebサイト改修業務 ／ 約20名の日本海外チームでの制作
-            </p>
-            <div class="to_detail-link">
-              <a href="/front-portfolio/work-web.html">詳細</a>
+            <div>
+              <h3 class="-w-ttl">【実務】Webサイトの継続的な運用・改修</h3>
+              <ul class="tag-wrap">
+                <li class="tag">300件/月を受注する制作会社様</li>
+                <li class="tag">HTML・CSS、JavaScrip、PHP</li>
+                <li class="tag">サイト改修業務</li>
+                <li class="tag">約20名の日本海外チーム</li>
+                <!-- <li class="tag"></li> -->
+              </ul>
+              <div class="collapsible">
+                <p>
+                  既存サイトの構造や独自仕様を理解し、スピーディーな制作進行と品質の担保を両立。また、フォトショップ、イラストレーターでの画像加工、構造化データ、AIO対策の業務を請け負いました。<br>※英語スキルは単語で意図を伝えること、読むとること、は可能ですが、メインで使うことではお力になれません。申し訳ありません。<br><br>
+                  在籍期間：2026/01〜2026/12<br>担当範囲：コーディング ／ 構造化データ設置 ／ 海外エンジニアへの指示 ／ 画像加工 ／ 独自CMS習得<br>使用技術：HTML ／ CSS ／
+                  JavaScript ／ 独自CMS(PHP)
+
+                </p>
+              </div>
+              <div class="-w-btn-wrap">
+                <div class="-w-btn open-btn">
+                  <a href=""><span>詳細</span></a>
+                </div>
+              </div>
+
             </div>
           </div>
 
-          <div class="work-card">
+          <div class="work-card fade-up">
             <div class="img-wrap">
               <img src="/front-portfolio/img/wp-thumbnail01.webp" alt="WPサムネ" />
             </div>
-            <h3>【実務】法人様WordPressサイト新規構築</h3>
-            <p>Wordpressテーマ制作 ／ 構造化データ ／ TOP+5ページ ／ Figmaカンプからのコーディング ／ 制作期間1ヶ月</p>
-            <div class="to_detail-link">
-              <a href="/front-portfolio/work-wp02.html">詳細</a>
+            <div>
+              <h3 class="-w-ttl">【実務】法人様（WP新規構築）</h3>
+              <ul class="tag-wrap">
+                <li class="tag">Wordpressテーマ制作</li>
+                <li class="tag">構造化データ</li>
+                <li class="tag">TOP+5ページ</li>
+                <li class="tag">Figmaカンプからのコーディング</li>
+                <li class="tag">制作期間2週間</li>
+              </ul>
+              <div class="collapsible">
+                <p>
+                  ホームページの制作をご依頼いただき、副業として請負いました。Figmaデザインカンプをもとに新規制作いたしました。
+                  個人情報を隠した状態のfigmaのスクリーンショットを用いてAIにてコーディングを行いました。
+                  MV、全体の文字サイズ、カラー、ピクセルパーフェクトなどの調整コーディングは自身で行なっております。<br><span>一部情報を白ぼかししております。</span><br><br>
+                  制作期間：2026/06/01〜2026/06/15(+追加修正2日ほど)
+                  担当範囲：コーディング ／ 構造化データ設置<br>
+                  使用技術：Claud AI ／ HTML ／ CSS ／ JavaScript ／ WordPress
+                </p>
+              </div>
+              <div class="-w-btn-wrap">
+                <div class="-w-btn open-btn">
+                  <a href=""><span>詳細</span></a>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="work-card">
+          <div class="work-card fade-up">
             <div class="img-wrap">
               <img src="/front-portfolio/img/wp-thumbnail.webp" alt="WPサムネ" />
             </div>
-            <h3>【実務】福祉施設サイト（WP構築）</h3>
-            <p>テーマファイルカスタマイズ ／ 記事一覧実装 ／ MEO対策</p>
-            <div class="to_detail-link">
-              <a href="/front-portfolio/work-wp01.html">詳細</a>
+            <div>
+              <h3 class="-w-ttl">【実務】福祉施設サイト（WP構築）</h3>
+              <ul class="tag-wrap">
+                <li class="tag">テーマファイルカスタマイズ</li>
+                <li class="tag">記事一覧実装</li>
+                <li class="tag">MEO対策</li>
+                <!-- <li class="tag"></li>
+                <li class="tag"></li> -->
+              </ul>
+              <div class="collapsible">
+                <p>
+                  前々職で担当していたwebサイト改修業務を、退職後も業務委託していただき継続しております。<br>
+                  お問い合わせ件数アップに向けたホームページ改修など担当。<br>既存サイトを改修する形で、ブログ機能、よくある質問、追加や、レイアウト改修など。<br><br>
+                  請負期間：2025/02〜<br>担当範囲：一部デザイン ／ コーディング ／ WordPressテンプレート修正<br>使用技術：HTML ／ CSS ／ JavaScript ／ WordPress
+                </p>
+              </div>
+              <div class="-w-btn-wrap">
+                <div class="-w-btn open-btn">
+                  <a href=""><span>詳細</span></a>
+                </div>
+              </div>
             </div>
           </div>
-
-          <!-- <div class="work-card">
-            <div class="img-wrap">
-              <img src="/front-portfolio/img/lp-thumbnail.webp" alt="WPサムネ" />
-            </div>
-            <h3>umi room（架空LP制作）</h3>
-            <p>javascript / swiper</p>
-            <div class="to_detail-link">
-              <a href="/front-portfolio/work-lp01.html">詳細</a>
-            </div>
-          </div>
-
-          
-          <div class="work-card">
-            <div class="img-wrap">
-              <img src="/front-portfolio/img/app-thumbnail.webp" alt="myselfyサムネ" />
-            </div>
-            <h3>ヒトリ映エ（SPA制作）</h3>
-            <p>next.js ／ varsel ／ Github / terminal</p>
-            <div class="to_detail-link">
-              <a href="/front-portfolio/work-app01.html">詳細</a>
-            </div>
-          </div> -->
 
         </div>
-        <!-- <div class="work-card">
-            <img src="images/lp-thumb.jpg" alt="LPサムネ" />
-            <h3>LP模写（美容系）</h3>
-            <p>レスポンシブ対応／フォーム完動</p>
-            <a href="/works/lp-mosha.html">詳細</a>
-          </div> -->
       </section>
+
     </div>
+
+    <section id="skils">
+      <div class="-w-ttl-wrap fade-up">
+        <p class="-w-subttl">02.</p>
+        <h2 class="-w-ttl">スキル</h2>
+        <p class="-w-subttl">SKILS</p>
+        <!-- <p class="-w-caption">制作実績をご紹介いたします。</p> -->
+      </div>
+
+      <div class="accordion">
+        <details class="fade-up">
+          <summary>
+            <span>コーディング</span>
+            <div class="tag-wrap">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+            </div>
+          </summary>
+          <p>約6年実務経験があります。</p>
+        </details>
+        <details class="fade-up">
+          <summary>
+            <span>CMS</span>
+            <div class="tag-wrap">
+              <span class="tag">Wordpress</span>
+              <span class="tag">独自CMS</span>
+            </div>
+          </summary>
+          <p>独自CMSを用いている会社2ど在籍した経験から、仕様を素早く習得し、即戦力として参画できるよう努めます。</p>
+        </details>
+        <details class="fade-up">
+          <summary>
+            <span>グラフィック系ソフト</span>
+            <div class="tag-wrap">
+              <span class="tag">Photoshop</span>
+              <span class="tag">Illustrator</span>
+              <span class="tag">Canva</span>
+            </div>
+          </summary>
+          <p>楽天ショップに出品していた写真の加工、ロゴの制作など、PhotoShop/Illustratorを実務で使用しておりました。</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+
+        <div class="-w-ttl-wrap fade-up">
+          <p class="-w-subttl">03.</p>
+          <h2 class="-w-ttl">お問い合わせ</h2>
+          <p class="-w-subttl">CONTACT</p>
+          <!-- <p class="-w-caption">制作実績をご紹介いたします。</p> -->
+        </div>
+
+        <div class="mbox-text">
+          <p class="fade-up typewriter"><b>スポット</b>でのご依頼から、</p>
+          <p class="fade-up typewriter"><b>継続的</b>な制作案件まで、</p>
+          <p class="fade-up typewriter">私にできることがあれば、</p>
+          <p class="fade-up typewriter">対応させていただきます。</p>
+          <div class="-w-btn fade-up"><a href="#contact"><span>03.コンタクト</span></a></div>
+        </div>
+      </div>
+
+    </section>
+
   </main>
 
   <footer>
+
+    <div class="sticky-footer">
+      <ul class="btn-wrap">
+        <li class="-w-btn"><a href="#works"><span>01.制作実績</span></a></li>
+        <li class="-w-btn"><a href="#skils"><span>02.スキル</span></a></li>
+        <li class="-w-btn"><a href="#contact"><span>03.コンタクト</span></a></li>
+        <li class="-w-btn to-top"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+              height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 14L12 7L19 14" />
+            </svg></a></li>
+      </ul>
+    </div>
+
     <div class="wrap">
       <a class="link github" href="https://github.com/utough?tab=repositories"></a>
       <a class="link mail" href="mailto:yutaskysazanami@gmail.com"></a>
+      <p class="c-right">©2026 加藤</p>
     </div>
-    <p>©2026 加藤</p>
   </footer>
+
+  <script src="/front-portfolio/script.js"></script>
 </body>
 
 </html>
